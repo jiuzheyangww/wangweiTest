@@ -1,0 +1,165 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>个人工资 管理中心 行政人员列表</title>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/resources/Styles/general.css" rel="stylesheet" type="text/css" />
+<link href="/resources/Styles/main.css" rel="stylesheet" type="text/css" />
+<script src="/resources/js/jquery/jquery-1.8.3.min.js" type="text/javascript"></script
+</head>
+<body onLoad="goPage(1,10);">
+<h1>
+    <!--<span class="action-span"><a href="/views/staff/staff_add.html">添加员工</a></span>-->
+    <span class="action-span1"><a href="#">个人工资 管理中心</a></span>
+    <div style="clear:both"></div>
+</h1>
+<div class="form-div">
+    <form action="/views/personnal/admin_staff/admin_staff_list_search?id=2" name="searchForm" method="post">
+    <img src="/resources/Images/icon_search.gif" width="26" height="22" border="0" alt="search" />
+    工号:<input type="text" name="Job_Num" size="15" /> 姓名:<input type="text" name="name" size="15" />
+    <input type="submit" value=" 搜索 " class="button" />
+    </form>
+</div>
+<form method="post" action="" name="listForm">
+    <div class="list-div" id="listDiv">
+        <table cellpadding="3" cellspacing="1">
+            <tr>
+                <th>工号</th>
+                <th>姓名</th>
+                <th>身份证号</th>
+                <th>电话号</th>
+                <th>银行卡号</th>
+                <th>入职时间</th>
+                <!--<th>操作</th>-->
+            </tr>
+            <tbody id="idData">
+          {{each people}}
+            <tr>
+                <td class="first-cell" align="center">
+                     {{$value.Job_Num}} 
+                </td>
+                <td align="center">
+                    {{$value.name}} 
+                </td>
+                <td align="center">
+					<input type="hidden" name="" class="idCardNum" value="{{ $value.id_card }}" />
+				</td>
+                <!--<td align="center">{{$value.id_card}}</td>-->
+                <td align="center"><span>{{$value.phone}}</span></td>
+                <!--<td align="center">{{$value.credit_card}}</td>-->
+                <td align="center">
+					<input type="hidden" name="" class="idCardNum" value="{{ $value.credit_card }}" />
+				</td>
+                <td align="center">{{$value.entry_time}}</td>
+                <!--<td align="center">
+                <a href="/views/teacher/teacher_edit?Job_Num={{$value.Job_Num}}" title="编辑">编辑</a> |
+                <a href="/views/teacher/teacher_delete?Job_Num={{$value.Job_Num}}&position_type=2" title="编辑">删除</a> 
+                </td>-->
+            </tr>
+             {{/each}}
+              </tbody>
+            <tr>
+                <td align="right" nowrap="true" colspan="6">
+                    <div id="turn-page">
+<div class="page" style="margin: 0 auto;">
+	<div id="barcon" name="barcon" style="margin-top: 20px;"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+<script>
+		$("document").ready(function(){
+			$("#pageGo").click(function(){
+				var path = $(this).attr("url");
+				window.location.replace(path+$('#currentPage').val())
+			});
+		});
+	</script>
+<div id="footer">
+<!--共执行 3 个查询，用时 0.021251 秒，Gzip 已禁用，内存占用 2.194 MB<br />-->
+版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
+<script type="text/javascript">
+			//设置身份账号不可见
+				function plusXing (str,frontLen,endLen) { 
+					var len = str.length-frontLen-endLen;
+					var xing = '';
+					for (var i=0;i<len;i++) {
+					xing+='*';
+					}
+					return str.substring(0,frontLen)+xing+str.substring(str.length-endLen);
+				}
+				var str, txt
+				var idCardNum = document.getElementsByClassName('idCardNum')
+				for(var i = 0; i < idCardNum.length; i++){
+					
+					str = idCardNum[i].value
+					txt = plusXing (str,4,4)
+					
+					var myText = document.createTextNode(txt)
+					console.log(myText)
+					idCardNum[i].parentElement.append(myText)
+				}	 
+				function goPage(pno){
+    var itable = document.getElementById("idData");
+    var num = itable.rows.length;//表格所有行数(所有记录数)
+//  console.log("the num is......");
+    console.log(num);
+    var totalPage = 0;//总页数
+    var pageSize = 10;//每页显示行数
+    //总共分几页
+    if(num/pageSize > parseInt(num/pageSize)){
+        totalPage=parseInt(num/pageSize)+1;
+    }else{
+        totalPage=parseInt(num/pageSize);
+    }
+    var currentPage = pno;//当前页数
+    var startRow = (currentPage - 1) * pageSize+1;//开始显示的行  31
+    var endRow = currentPage * pageSize;//结束显示的行   40
+    endRow = (endRow > num)? num : endRow;    //40
+    console.log(endRow);
+    //遍历显示数据实现分页
+    for(var i=1;i<(num+1);i++){
+        var irow = itable.rows[i-1];
+        if(i>=startRow && i<=endRow){
+            irow.style.display = "table-row";
+        }else{
+            irow.style.display = "none";
+        }
+    }
+    var pageEnd = document.getElementById("pageEnd");
+    var tempStr = "<span>共<b>"+num+"</b>条记录</span>";
+ 
+ 
+//.bind("click",{"newPage":pageIndex},function(event){
+//        goPage((pageIndex-1)*pageSize+1,(pageIndex-1)*pageSize+pageSize);
+//    }).appendTo('#pages');
+    if(currentPage>1){
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(1)+")\">首页</span>";
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(currentPage-1)+")\">上一页</span>"
+    }else{
+        tempStr += "<span class='button button-rounded button-small'>首页</span>";
+        tempStr += "<span class='button button-rounded button-small'>上一页</span>";
+    }
+ 
+    for(var pageIndex= 1;pageIndex<totalPage+1;pageIndex++){
+        tempStr += "<a class='button button-rounded button-small' onclick=\"goPage("+pageIndex+")\"><span>"+ pageIndex +"</span></a>";
+    }
+ 
+    if(currentPage<totalPage){
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(currentPage+1)+")\">下一页</span>";
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(totalPage)+")\">尾页</span>";
+    }else{
+        tempStr += "<span class='button button-rounded button-small'>下一页</span>";
+        tempStr += "<span class='button button-rounded button-small'>尾页</span>";
+    }
+ 
+    document.getElementById("barcon").innerHTML = tempStr;
+ 
+}
+</script>
+</body>
+</html>

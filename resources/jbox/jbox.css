@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+*:focus {outline: none;}
+/* fade */
+.jbox-fade{background-color:#000000;}
+/* drag */
+.jbox-drag{border:1px dashed #febb05;}
+/* jbox */
+div.jbox {padding:0px;border:none;font-size:12px;}
+/* border */
+div.jbox .jbox-border{background: none repeat scroll 0 0 #000000;filter:alpha(opacity=20);-moz-opacity:0.2;opacity:0.2;}
+/* container */
+div.jbox .jbox-container{background-color:#ffffff;border:1px solid #999999;}
+/* title-panel */
+div.jbox .jbox-title-panel{background:#c12e27;height:42px;line-height:42px;}
+div.jbox .jbox-title{font-weight:bold;color:#ffffff;}
+div.jbox .jbox-title-icon{margin-top:10px;background:url(images/jbox-title-icon.gif) no-repeat scroll 3px 5px transparent;}
+div.jbox .jbox-close,div.jbox .jbox-close-hover{background:url(images/jbox-close1.gif) no-repeat scroll 0px 0px transparent;}
+div.jbox .jbox-close-hover{background-position:-16px 0;}
+/* content */
+div.jbox .jbox-content{min-height:24px;line-height:18px;color:#444444;}
+div.jbox .jbox-content-loading{background-color:#E6E6E6;}
+div.jbox .jbox-content-loading-image{background:url(images/jbox-content-loading.gif) no-repeat bottom center;}
+/* button-panel */
+div.jbox .jbox-button-panel{border-top:1px solid #CCCCCC;background-color: #EEEEEE; display:none;}
+div.jbox .jbox-bottom-text{text-indent:10px;color:#444444;}
+div.jbox .jbox-button{background: #febb05;background: -webkit-gradient(linear, left top, left bottom, from(#fed752), to(#fdad02));background: -moz-linear-gradient(top,  #fed752,  #fdad02);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fed752', endColorstr='#fdad02');border:#d89413 1px solid;color:#fff;border-radius:3px 3px 3px 3px;margin:1px 7px 0px 0px;height:22px;cursor:default;}
+div.jbox .jbox-button-hover{background: #febb05;background: -webkit-gradient(linear, left top, left bottom, from(#febb05), to(#fda601));background: -moz-linear-gradient(top,  #febb05,  #fda601);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#febb05', endColorstr='#fda601');}
+div.jbox .jbox-button-active{background: -webkit-gradient(linear, left top, left bottom, from(#fda601), to(#febb05));background: -moz-linear-gradient(top,  #fda601,  #febb05);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fda601', endColorstr='#febb05');}
+div.jbox-warning .jbox .jbox-button-panel{background-color: #FFFFFF;}
+/* tip-color */
+div.jbox .jbox-tip-color{background: #febb05;background: -webkit-gradient(linear, left top, left bottom, from(#febb05), to(#fda601));background: -moz-linear-gradient(top,  #febb05,  #fda601);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#febb05', endColorstr='#fda601');border-color:#d89413;border-radius:3px 3px 3px 3px;color:#fff;}
+/* icons */
+div.jbox span.jbox-icon{background:url(images/jbox-icons.png) no-repeat scroll 0 0 transparent;_background:url(images/jbox-icons-ie6.gif) no-repeat scroll 0 0 transparent;}
+div.jbox span.jbox-icon-info {background-position:0 0;}
+div.jbox span.jbox-icon-question {background-position:-36px 0;}
+div.jbox span.jbox-icon-success {background-position:-72px 0;}
+div.jbox span.jbox-icon-warning {background-position:-108px 0;}
+div.jbox span.jbox-icon-error {background-position:-144px 0;}
+div.jbox span.jbox-icon-none {display: none; overflow:hidden;}
+div.jbox span.jbox-icon-loading {background:url(images/jbox-loading1.gif) no-repeat scroll 0 0 transparent;}
+
+
+/*参与活动登陆*/
+.dlnr{width:401px;float:left;background: #fff; overflow:hidden; margin-top:25px;}
+.dlnr .dltitle{ width: 125px; height: 30px; margin: 25px auto 30px; text-align: center; font-size: 22px; color: #111; font-weight: bold;}
+.dlnr .dltitle img{ width: 125px; height: 30px;}
+.dlnr .jt{ width: 313px; margin: 0 auto; overflow: hidden;padding-left:10px;display:block;}
+.dlnr .jt input{ display: block; width:300px; border: 1px solid #ddd; margin-bottom:12px; background: #fff; height: 43px; line-height: 43px; font-size: 14px; color: #666; padding-left:10px;}
+.dlnr .jt input.l1{ background: url(../img/login.png) no-repeat 15px center;}
+.dlnr .jt input.l2{ background: url(../img/key.png) no-repeat 15px center;}
+.dlnr .jt .but{float:left; width:154px; height:45px; line-height:45px; background: #c12e27; text-align: center; font-size:18px; color: #fff; margin-top:5px;}
+.dlnr .jt .but a{ color: #fff;}
+.dlnr .jt .but1{float:left; width:300px; height:45px; line-height:45px; background: #c12e27; text-align: center; font-size:18px; color: #fff; margin-top:5px;}
+.dlnr .jt .but1 a{ color: #fff;}
+.reg_btn{ background:#c12e27;
+    border: 1px solid #c12e27;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    height: 43px;
+    line-height: 43px;
+    margin-bottom: 12px;
+    width: 150px;
+    text-align:center;
+    font-size:18px;
+    margin-top:12px;
+}
+.reg_info_l{ width: 310px; float:left;}
+.reg_info_l li{ width: 310px; float:left;margin-top:-10px}
+.reg_info_l li label{float:left;height:43px;line-height:43px;}
+.reg_info_l li label i{padding-right:8px;}
+
+

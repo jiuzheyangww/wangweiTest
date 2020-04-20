@@ -1,0 +1,10 @@
+
+
+#main .photoblock-many {		/* A general full-width photo block (that clears), for many thumbnails */
+   margin: 0 10px 10px -4px;
+   clear: both;
+   width: 100%;
+   text-align: center;
+   font-size: 10px;
+   color: #888888;
+}

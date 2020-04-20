@@ -1,0 +1,161 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>工资 管理中心 固定费用</title>
+<meta name="robots" content="noindex, nofollow">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/resources/Styles/general.css" rel="stylesheet" type="text/css" />
+<link href="/resources/Styles/main.css" rel="stylesheet" type="text/css" />
+<script src="/resources/js/jquery/jquery-1.8.3.min.js" type="text/javascript"></script>
+<!--<link href="/resources/css/buttons.css" rel="stylesheet" type="text/css" />-->
+<script src="/resources/js/tableExport.js" type="text/javascript"></script>
+</head>
+<body onLoad="goPage(1,10);">
+<h1>
+    <!--<span class="action-span"><a href="/views/staff/staff_add.html">添加员工</a></span>-->
+    <span class="action-span1"><a href="#">工资 管理中心</a></span>
+    <div style="clear:both"></div>
+</h1>
+<!--<div class="form-div">
+    <form action="" name="searchForm">
+    <img src="/resources/Images/icon_search.gif" width="26" height="22" border="0" alt="search" />
+    工号:<input type="text" name="brand_name" size="15" /> 姓名:<input type="text" name="brand_name" size="15" />
+    <input type="submit" value=" 搜索 " class="button" />
+    </form>
+</div>-->
+<form method="post" action="" name="listForm">
+    <div class="list-div" id="listDiv">
+        <table id="tableExcel" cellpadding="3" cellspacing="1">
+            <tr>
+                <th>补助ID</th>
+                <th>补助名称</th>
+                <th>补助费用</th>
+                <!--<th>操作</th>-->
+            </tr>
+            <tbody id="idData">
+            	{{each inform}}
+            <tr>
+                <!--<td class="first-cell">
+                	<a href="" target="_brank"></a>
+                </td>
+                <td align="center">
+                    <a href="" target="_brank"></a>
+                </td>
+                <td align="center"></td>
+                <td align="center"><span></span></td>-->
+                <!--<input type="hidden" name="" id="" value="{{$value.id}}" />-->
+                <td align="center">{{$value.id}}</td>
+                <td align="center">{{$value.allowance_name}}</td>
+                <td align="center">{{$value.allowance_bill}}/月</td>
+                <!--<td align="center">
+                	<input onclick="window.location.href='/views/salary_rule/fixed_bill_edit?id={{$value.id}}'" id="deleteBtn"  type="button"  class="button button-rounded button-small button-caution" value="编辑"/>
+                </td>-->
+            </tr>
+            {{/each}}
+            </tbody>
+            <tr>
+                <td align="right" nowrap="true" colspan="6">
+                    <div id="turn-page">
+                        <!--总计 <span id="totalRecords">11</span>
+                        个记录分为 <span id="totalPages">1</span>
+                        页当前第 <span id="pageCurrent">1</span>
+                        页，每页 <input type='text' size='3' id='pageSize' value="15" />
+                        <span id="page-link">
+                            <a href="#">第一页</a>
+                            <a href="#">上一页</a>
+                            <a href="#">下一页</a>
+                            <a href="#">最末页</a>
+                            <select id="gotoPage">
+                                <option value='1'>1</option>
+                            </select>
+                        </span>-->
+                        <div class="page" style="margin: 0 auto;">
+	<div id="barcon" name="barcon" style="margin-top: 20px;"></div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</form>
+<script>
+		$("document").ready(function(){
+			$("#pageGo").click(function(){
+				var path = $(this).attr("url");
+				window.location.replace(path+$('#currentPage').val())
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		function goPage(pno){
+    var itable = document.getElementById("idData");
+    var num = itable.rows.length;//表格所有行数(所有记录数)
+//  console.log("the num is......");
+    console.log(num);
+    var totalPage = 0;//总页数
+    var pageSize = 10;//每页显示行数
+    //总共分几页
+    if(num/pageSize > parseInt(num/pageSize)){
+        totalPage=parseInt(num/pageSize)+1;
+    }else{
+        totalPage=parseInt(num/pageSize);
+    }
+    var currentPage = pno;//当前页数
+    var startRow = (currentPage - 1) * pageSize+1;//开始显示的行  31
+    var endRow = currentPage * pageSize;//结束显示的行   40
+    endRow = (endRow > num)? num : endRow;    //40
+    console.log(endRow);
+    //遍历显示数据实现分页
+    for(var i=1;i<(num+1);i++){
+        var irow = itable.rows[i-1];
+        if(i>=startRow && i<=endRow){
+            irow.style.display = "table-row";
+        }else{
+            irow.style.display = "none";
+        }
+    }
+    var pageEnd = document.getElementById("pageEnd");
+    var tempStr = "<span>共<b>"+num+"</b>条记录</span>";
+ 
+ 
+//.bind("click",{"newPage":pageIndex},function(event){
+//        goPage((pageIndex-1)*pageSize+1,(pageIndex-1)*pageSize+pageSize);
+//    }).appendTo('#pages');
+    if(currentPage>1){
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(1)+")\">首页</span>";
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(currentPage-1)+")\">上一页</span>"
+    }else{
+        tempStr += "<span class='button button-rounded button-small'>首页</span>";
+        tempStr += "<span class='button button-rounded button-small'>上一页</span>";
+    }
+ 
+    for(var pageIndex= 1;pageIndex<totalPage+1;pageIndex++){
+        tempStr += "<a class='button button-rounded button-small' onclick=\"goPage("+pageIndex+")\"><span>"+ pageIndex +"</span></a>";
+    }
+ 
+    if(currentPage<totalPage){
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(currentPage+1)+")\">下一页</span>";
+        tempStr += "<span class='button button-rounded button-small' href=\"#\" onClick=\"goPage("+(totalPage)+")\">尾页</span>";
+    }else{
+        tempStr += "<span class='button button-rounded button-small'>下一页</span>";
+        tempStr += "<span class='button button-rounded button-small'>尾页</span>";
+    }
+ 
+    document.getElementById("barcon").innerHTML = tempStr;
+ 
+}
+	</script>
+<script type="text/javascript">
+  function tableToExcel(){
+    //获取要导出Excel的表格对象并设置tableExport方法，设置导出类型type为excel
+    $('#tableExcel').tableExport({
+      type:'excel',
+      fileName:'人员信息'
+    });
+  }
+</script>
+<div id="footer">
+<!--共执行 3 个查询，用时 0.021251 秒，Gzip 已禁用，内存占用 2.194 MB<br />-->
+版权所有 &copy; 2005-2012 上海商派网络科技有限公司，并保留所有权利。</div>
+</body>
+</html>

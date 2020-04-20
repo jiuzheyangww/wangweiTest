@@ -1,0 +1,469 @@
+body,div,a,span,img,h3,ul,li,p,h4,font,input,h1{ border: 0; margin: 0; padding: 0;border: 0; font-family: "΢���ź�"; }
+ul,li{ list-style: none;}
+a{ text-decoration: none; font-style: normal;}
+*:focus { outline: none; }
+.clear{ clear: both;}
+
+body{ background: url("../img/zdbj.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zdbj.jpg*/ no-repeat left top; background-attachment: fixed;}
+
+
+/*��ҳ*/
+@media only screen and (max-width:1024px) {
+	.ydy{
+		width: 100%; height: 783px; position: absolute; top: 50%; margin-top: -250px; z-index: 2; background: none;
+	}
+	.ydy .content{ background: url("../img/ydybj.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/ydybj.jpg*/ no-repeat center center;}
+}
+
+@media only screen and (max-width:1920px) {
+	.ydy{ width: 100%; height: 753px; position: absolute;  left: 0; top: 50%; margin-top: -376px; background: url("../img/ydybj.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/ydybj.jpg*/ no-repeat center center;}
+	.content{ width: 1200px; height: auto; margin: 0 auto;}
+}
+
+
+.ydy .nav{ width: 480px; position: absolute; left: 264px; bottom: 135px; height: 74px;}
+.ydy .nav ul{ width: auto; overflow: hidden;}
+.ydy .nav ul li{ width: 66px; height: 67px; float: left; font-size: 16px; color: #333; text-align: center; padding: 2px 5px 5px 3px; background: url("../img/navwxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navwxz.png*/ no-repeat left top; margin: 0 10px;}
+.ydy .nav ul li a{ display: block; width: 40px; height: 40px; line-height: 20px; padding: 11px; margin: 0 auto; margin-top: 2px;}
+.ydy .nav ul li a.a1{ background: url("../images/xxjl_ico.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/xxjl_ico.png*/ no-repeat center center;}
+.ydy .nav ul li a.a2{ background: url("../images/zzgl_ico.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/zzgl_ico.png*/ no-repeat center center;}
+.ydy .nav ul li a.a3{ background: url("../images/bsfw_ico.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/bsfw_ico.png*/ no-repeat center center;}
+.ydy .nav ul li a.a4{ background: url("../images/jcfx_ico.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/jcfx_ico.png*/ no-repeat center center;}
+.ydy .nav ul li a.a5{ background: url("../images/zzdh_ico.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/zzdh_ico.png*/ no-repeat center center;}
+.ydy .nav ul li:hover{ background: url("../img/navxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navxz.png*/ no-repeat left top;}
+.ydy .nav ul li:hover a.a1{ background: url("../img/navdjzx.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdjzx.png*/ no-repeat 20px center;}
+.ydy .nav ul li:hover a.a2{ background: url("../img/navzzgl.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzzgl.png*/ no-repeat 23px center;}
+.ydy .nav ul li:hover a.a3{ background: url("../img/navdyfw.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdyfw.png*/ no-repeat 23px center;}
+.ydy .nav ul li:hover a.a4{ background: url("../img/navbgpt.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navbgpt.png*/ no-repeat 19px center;}
+.ydy .nav ul li:hover a.a5{ background: url("../img/navzxjy.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzxjy.png*/ no-repeat 20px center;}
+
+.ydy .tpqh{ width: 283px; height: 497px; position: absolute; top: 60px; right: 45px; padding: 60px 9px 93px 7px; background: url("../img/ydyxbj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/ydyxbj.png*/ no-repeat left top;}
+/*����ͼ*/
+.ydy .tpqh .focus{ position:relative; width:287px; height:497px; float: left; background: url("../img/aboutnewsbj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/aboutnewsbj.png*/ no-repeat left 280px;}  
+.ydy .tpqh .focus img{ width:283px; height:497px;} 
+
+.ydy .tpqh .focus .btn{ position:absolute; bottom:34px; left:480px; overflow:hidden; zoom:1;} 
+.ydy .tpqh .focus .btn a{position:relative; display:inline; width:13px; height:13px; text-decoration:none; text-align:left; outline:0; float:left; background:#D9D9D9; }  
+.ydy .tpqh .focus .btn a:hover,.focus .btn a.current{  cursor:pointer;background:#fc114a;}  
+.ydy .tpqh .focus .fPic{ position:absolute; left:0px; top:0px; width: 288px; height: 465px;}  
+.ydy .tpqh .focus .D1fBt{ overflow:hidden; zoom:1;  height:16px; z-index:10;  }  
+.ydy .tpqh .focus .shadow{ width:100%; position:absolute; bottom:0; left:0px; z-index:10; height:40px; line-height: 40px; background:rgba(0,0,0,0.6);    
+filter:progid:DXImageTransform.Microsoft.gradient( GradientType = 0,startColorstr = '#80000000',endColorstr = '#80000000')\9;  display:block;  text-align:left; font-size:12px; }  
+.ydy .tpqh .focus .shadow a{ text-decoration:none; color:#fff; font-size:14px; overflow:hidden; margin-left:10px;}  
+.ydy .tpqh .focus .fcon{ position:relative; width:100%; float:left;  display:none; }  
+.ydy .tpqh .focus .fcon img{ display:block; width:287px; height:497px;}  
+.ydy .tpqh .focus .fbg{bottom:10px; left:90px; position:absolute; height:10px; text-align:center; z-index: 200; width: 100px;}  
+.ydy .tpqh .focus .fbg div{margin:0px auto;overflow:hidden;zoom:1;height:10px; width: 100px;}    
+.ydy .tpqh .focus .D1fBt a{position:relative; width:10px; height:10px; margin:0 5px;color:#B0B0B0; text-decoration:none; outline:0; float:left; background:#fff;  *display:inline;*behavior: url("css/PIE.htc")/*tpa=http://df.xabpo.com/resources/web/wg_dj/css/css/PIE.htc*/; border-radius: 20px;}    
+.ydy .tpqh .focus .D1fBt .current,.focus .D1fBt a:hover{background:#ff0000;}    
+.ydy .tpqh .focus .D1fBt img{display:none}    
+.ydy .tpqh .focus .D1fBt i{ font-style:normal;  font-size: 12px; color: #fff; line-height: 19px;}    
+.ydy .tpqh .focus .prev,.ydy .tpqh .focus .next{position:absolute;width:40px;height:74px;background: url("../images/focus_btn.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/focus_btn.png*/ no-repeat;}
+.ydy .tpqh .focus .prev{top: 50%;margin-top: -37px; left: 0;background-position:0 -74px; cursor:pointer; }  
+.ydy .tpqh .focus .next{top: 50%;margin-top: -37px; right: 0;  background-position:-40px -74px;  cursor:pointer;}  
+.ydy .tpqh .focus .prev:hover{  background-position:0 0; }  
+.ydy .tpqh .focus .next:hover{  background-position:-40px 0;}  
+
+.ydy .bqxx{ width: 100%; text-align: center; font-size: 14px; color: #333; line-height: 20px; height: 20px; position: absolute; bottom: 15px; left: 0;}
+
+/*.ymmbj{ width:100%; height: 100%; position: fixed; background: url(../img/zdbj.jpg) no-repeat left top; background-attachment: fixed;}
+*/
+@media only screen and (max-width:900px) {
+	.ymm {
+		width: 100%; height: 783px; position: absolute; top: 50%; margin-top: -200px; z-index: 2;
+	}
+}
+@media only screen and (max-width:1024px) {
+	.ymm {
+		width: 100%; height: 783px; position: absolute; top: 50%; margin-top: -300px; z-index: 2;
+	}
+}
+
+@media only screen and (max-width:1920px) {
+	.ymm{ width: 100%; height: 783px; position: absolute; top: 50%; margin-top: -376px; z-index: 2;}
+
+}
+
+.ymm .main .nav1{ width: 74px; height: 400px; position: absolute; right: -80px; top: 130px; }
+.ymm .main .nav1 ul{ width: auto; overflow: hidden;}
+.ymm .main .nav1 ul li{ width: 66px; height: 67px; float: left; font-size: 16px; color: #333; text-align: center; padding: 2px 5px 5px 3px; background: url("../img/navwxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navwxz.png*/ no-repeat left top; margin: 10px 0;}
+.ymm .main .nav1 ul li a{ display: block; width: 40px; height: 40px; line-height: 20px; padding: 11px; margin: 0 auto; margin-top: 2px;}
+.ymm .main .nav1 ul li a.a1{ background: url("../img/navdjzx1.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdjzx1.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li a.a2{ background: url("../img/navzzgl1.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzzgl1.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li a.a3{ background: url("../img/navdyfw1.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdyfw1.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li a.a4{ background: url("../img/navbgpt1.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navbgpt1.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li a.a5{ background: url("../img/navzxjy1.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzxjy1.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li:hover{ background: url("../img/navxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navxz.png*/ no-repeat left top;}
+.ymm .main .nav1 ul li:hover a.a1{ background: url("../img/navdjzx.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdjzx.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li:hover a.a2{ background: url("../img/navzzgl.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzzgl.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li:hover a.a3{ background: url("../img/navdyfw.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navdyfw.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li:hover a.a4{ background: url("../img/navbgpt.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navbgpt.png*/ no-repeat center center;}
+.ymm .main .nav1 ul li:hover a.a5{ background: url("../img/navzxjy.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navzxjy.png*/ no-repeat center center;}
+
+.ymm .main .nav2{ width: 74px; height: 400px; position: absolute; right: -80px; top: 100px; }
+.ymm .main .nav2 ul{ width: auto; overflow: hidden;}
+.ymm .main .nav2 ul li{ width: 40px; height: 40px; padding: 15px 19px 15px 15px; float: left; font-size: 16px; color: #F43636; text-align: center; background: url("../img/navwxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navwxz.png*/ no-repeat left top; margin: 10px 0;}
+.ymm .main .nav2 ul li a{ display: block; width: 40px; height: 40px; line-height: 20px;  margin: 0 auto; margin-top: 2px; color: #F43636; position: relative;}
+.ymm .main .nav2 ul li a span{ font-size: 16px; color: #F43636; display: block; position: absolute; top: -2px; left: 0; width: 40px; text-align: center;}
+.ymm .main .nav2 ul li a img{ display: none; position: absolute; width: 35px; height: 35px; margin: 0 auto; top: 0px;left: 5px;}
+.ymm .main .nav2 ul li:hover{ background: url("../img/navxz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navxz.png*/ no-repeat left top;}
+.ymm .main .nav2 ul li:hover a img{ display: block;}
+.ymm .main .nav2 ul li:hover a span{ display: none;}
+
+
+
+
+.ymm .main{ width: 1200px; height: 726px; }
+.ymm .main .left{ width: 227px; height: 726px; float: left; background: #343b58;} 
+.ymm .main .left .logo{ width: 100%; height: 144px; overflow: hidden; background: #f43636;}
+.ymm .main .left .logo img{ width: 171px; height: 65px; display: block; margin: 40px auto; 0}
+.ymm .main .left .nav{ width: 100%; height: auto; overflow: hidden; margin-top: 10px;}
+.ymm .main .left .nav ul{ width: 100%; height: auto; overflow: hidden;}
+.ymm .main .left .nav ul li{ font-size: 17px; line-height: 47px; width: 100%; height: 47px; padding-bottom: 3px; background: url("../img/navjg.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/navjg.jpg*/ no-repeat left bottom;}
+.ymm .main .left .nav ul li a{ display: block; margin-left: 45px; height: 47px; color: #fff; padding-left: 35px; text-align: left;}
+.ymm .main .left .nav ul li a.ldjh{ background: url("../img/wg_navldjh.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navldjh.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.llwz{ background: url("../img/wg_navllwz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navllwz.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.dngz{ background: url("../img/wg_navdngz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navdngz.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.dkyd{ background: url("../img/wg_navdkyd.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navdkyd.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.yjlm{ background: url("../img/wg_navyjlm.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navyjlm.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.dfsj{ background: url("../img/wg_navdfsj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navdfsj.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.zzgxzy{ background: url("../img/wg_naczzgxzy.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_naczzgxzy.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.dyga{ background: url("../img/wg_navdyga.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navdyga.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.xzzx{ background: url("../img/wg_navxzzx.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navxzzx.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.zxks{ background: url("../img/wg_navzxks.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navzxks.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.jcdj{ background: url("../img/wg_navjcdj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navjcdj.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.mbzrkh{ background: url("../img/wg_navmbzrkh.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navmbzrkh.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.dsyj{ background: url("../img/wg_navdsyj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navdsyj.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.lxdj{ background: url("../img/wg_navlxdj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navlxdj.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.gsgg{ background: url("../img/wg_navgggs.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/wg_navgggs.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.zyzfw{ background: url("../img/bx_zyzfw.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_zyzfw.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.lddyzz{ background: url("../img/bx_lddyzz.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_lddyzz.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.wyrd{ background: url("../img/bx_wyrd.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_wyrd.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.yyddb{ background: url("../img/bx_yyddb.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_yyddb.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.wyfy{ background: url("../img/bx_wyfy.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_wyfy.png*/ no-repeat left center;}
+.ymm .main .left .nav ul li a.bjrcgzs{ background: url("../img/bx_bjrcgzs.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bx_bjrcgzs.png*/ no-repeat left center;}
+
+
+.ymm .main .right{ width: 973px; height: 726px; float: right; background: #f0f3f4;} 
+.ymm .main .right .top{ width: 927px; height: 45px; line-height: 45px; font-size: 14px; color: #444; border-bottom: 1px solid #e1e1e1; padding: 0 23px; background: #fff;}
+.ymm .main .right .top .zb{ width: 650px; float: left; overflow: hidden;}
+.ymm .main .right .top .zb ul{ width: 100%; height: 35px; line-height: 35px; margin-top: 5px;}
+.ymm .main .right .top .zb ul li{ border: 1px solid #ddd; color: #333; float: left; font-size: 14px; height: 30px;line-height: 30px; margin-right: 5px;text-align: center;width: 80px;}
+.ymm .main .right .top .zb ul li a{ color: #333;}
+.ymm .main .right .top .zb ul li:hover{ background: #343B58;}
+.ymm .main .right .top .zb ul li:hover a{ color: #fff;}
+.ymm .main .right .top .zb ul li.l1{ background: #343B58;}
+.ymm .main .right .top .zb ul li.l1 a{ color: #fff;}
+
+.ymm .main .right .top .zb span{ color: #444;}
+.ymm .main .right .top .yb{ width: 338px; float: right; height: 36px; line-height: 36px; margin-top: 3px;}
+.ymm .main .right .top .yb .zp{ width: 36px; height: 36px; border-radius: 100px; float: left; overflow: hidden;}
+.ymm .main .right .top .yb .zp img{ width: 36px; height: 36px; border-radius: 100px;}
+.ymm .main .right .top .yb .xm{ width: 80px; margin-left: 15px; text-align: left; float: left; font-size: 16px; color: #333;}
+.ymm .main .right .top .yb .cz{ width: 190px; text-align: left; float: left; font-size: 15px; color: #4459c6; }
+.ymm .main .right .top .yb .cz a{ width: 95px; float: left; text-align: center; color: #4459c6; display: block;}
+.ymm .main .right .top .yb .wdls{ width: 111px; float: right; background: url("../img/dltb.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/dltb.png*/ no-repeat left center;}
+.ymm .main .right .top .yb .wdls a{ display: block; padding-left: 31px; font-size: 16px; color: #333;}
+.ymm .main .right .dlk{ height: 40px; width: 953px; overflow: hidden; border-bottom: 1px solid #E1E1E1; background: #fff; padding: 10px; display: none; position: absolute; top: 40px; left: 0; z-index: 999;}
+.ymm .main .right .dlk .xm{ width: 254px; float: left; height: 37px; line-height: 37px;}
+.ymm .main .right .dlk .xm .bt{ width: 90px; text-align: right; display: block; float: left;}
+.ymm .main .right .dlk .xm input{ width: 150px; height: 35px; line-height: 35px; border: 1px solid #ddd; padding: 0 5px; font-size: 14px; color: #666; text-align: left; float: left;}
+.ymm .main .right .dlk .xm .yzm{ width: auto; float: right; height: 35px; display: block;}
+.ymm .main .right .dlk .but{ width: 109px; float: right; border-radius: 3px; height: 35px; line-height: 35px; text-align: center; background: url("../img/bluebut.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bluebut.png*/ no-repeat left top; font-size: 16px; };
+.ymm .main .right .dlk .but a{ color: #fff;}
+
+
+
+
+.ymm .main .right .dlbf{ width: 100%; height: 138px; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; margin-top: 10px; background: #fff;}
+.ymm .main .right .dlbf .ydl{ width: 100%; height: 106px; padding: 16px 0; overflow: hidden;}
+.ymm .main .right .dlbf .ydl .zp{ width: 107px; height: 107px; margin-left: 53px; border-radius: 100px; float: left;}
+.ymm .main .right .dlbf .ydl .zp img{ width: 107px; height: 107px; border-radius: 100px;}
+.ymm .main .right .dlbf .ydl .xgxx{ width: 400px; float: left; margin-left: 20px; margin-top: 13px;}
+.ymm .main .right .dlbf .ydl .xgxx .xm{ font-size: 20px; color: #333; float: left; width: 100px; display: block; float: left; height: 35px; line-height: 35px;}
+.ymm .main .right .dlbf .ydl .xgxx .dy{ width: 100px; float: left; font-size: 15px; color: #f33636; height: 20px; margin-top: 10px; display: block; }
+.ymm .main .right .dlbf .ydl .xgxx .dzb{ width: 300px; float: left; font-size: 15px; color: #666; line-height: 35px; text-align: left; display: block;}
+.ymm .main .right .dlbf .ydl .xgxx .jifen{ width: 100%; height: 20px; overflow: hidden;}
+.ymm .main .right .dlbf .ydl .xgxx .jifen .lb{ width: 110px; float: left; font-size: 14px; color: #333; margin-right: 10px;}
+.ymm .main .right .dlbf .ydl .xgxx .jifen .lb a{ color: #333;}
+
+
+.ymm .main .right .dlbf .ydl .xgcz{ width: 190px; float: right; margin-right: 20px; height: 60px; line-height: 30px; font-size: 15px; color: #4459c6; margin-top: 20px;}
+.ymm .main .right .dlbf .ydl .xgcz a{ width: 95px; float: left; text-align: center; color: #4459c6; display: block;}
+.ymm .main .right .dlbf .ydl .xgcz a.cz1{ color: #f33636;}
+.ymm .main .right .dlbf .wdl{ width: 100%; height: 138px; overflow: hidden; background: url("../img/dyfwdlbj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/dyfwdlbj.png*/ no-repeat left top;}
+.ymm .main .right .dlbf .wdl .xm{ width: 357px; float: right; height: 30px; line-height: 30px; margin: 10px 5px 0 10px;}
+.ymm .main .right .dlbf .wdl .xm .bt{ width: 80px; text-align: right; display: block; float: left;}
+.ymm .main .right .dlbf .wdl .xm input{ width: 262px; height: 28px; line-height: 28px; border: 1px solid #ddd; padding: 0 5px; font-size: 14px; color: #666; text-align: left; float: left;}
+.ymm .main .right .dlbf .wdl .xm .yzm{ width: 80px; float: left; margin-left: 5px; height: 28px; display: block;}
+
+.ymm .main .right .dlbf .wdl .but{ width: 71px;  height: 28px; line-height: 28px; text-align: center; background: url("../img/bluebut.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bluebut.png*/ no-repeat center center; font-size: 14px; float: right; margin-right: 5px;}
+.ymm .main .right .dlbf .wdl .but a{ color: #fff;}
+
+.ymm .main .right .thnr{ height: 60px; padding: 13px 28px 21px 13px; overflow: hidden; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; margin-top: 10px; background: #fff;}
+.ymm .main .right .thnr .title{ width: 100px; float: left; overflow: hidden; font-size: 17px; color: #333333; font-weight: bold; line-height: 60px; text-align: center;}
+.ymm .main .right .thnr .title a{ color: #333;}
+.ymm .main .right .thnr .title a span{ color: #dd0007;}
+.ymm .main .right .thnr .nr{ width: 810px; float: right; font-size: 15px; color: #666; line-height: 30px;}
+.ymm .main .right .thnr .nr ul {}
+.ymm .main .right .thnr .nr ul li{ width: 100%; height: 30px; *height: 26px;*line-height: 26px; line-height: 30px; overflow: hidden;}
+.ymm .main .right .thnr .nr ul li a{ color: #555; display: block; width: 550px; float: left; overflow: hidden; text-align: left; text-overflow: ellipsis; white-space: nowrap;}
+.ymm .main .right .thnr .nr ul li span{ width: 100px; float: right;text-align: right; display: block; color: #999;}
+
+.ymm .main .right .part{ overflow: hidden; border-top: 1px solid #e1e1e1; border-bottom: 1px solid #e1e1e1; margin-top: 10px; background: #fff;}
+.ymm .main .right .part .zb{ width: 485px; float: left; border-right: 1px solid #e1e1e1;  padding: 5px 0;}
+.ymm .main .right .part .yb{ width: 485px; float: right;  padding: 5px 0;}
+.ymm .main .right .part .nr{ width: 467px; margin-left: 18px; overflow: hidden;}
+.ymm .main .right .part .nr .tit{ width: 100%; height: 34px; line-height: 34px; border-bottom: 1px solid #e1e1e1;}
+.ymm .main .right .part .nr .tit .bt{ width: 90px; float: left; text-align: center; border-bottom: 2px solid #dd0007; height: 34px; line-height: 34px; color: #dd0007;font-weight: bold; font-size: 17px;}
+.ymm .main .right .part .nr .tit .bt span{ color: #333;}
+.ymm .main .right .part .nr .tit .more{ width: 80px; float: right; margin-right: 0; text-align: left; font-size: 13px; color: #999;}
+.ymm .main .right .part .nr .list{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.ymm .main .right .part .nr .list ul{ }
+.ymm .main .right .part .nr .list ul li{ width: 100%; height: 30px; line-height: 30px; *height: 26px;*line-height: 26px; background: url("../img/zqhd.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zqhd.jpg*/ no-repeat left center; font-size: 15px;}
+.ymm .main .right .part .nr .list ul li a{ display: block; color: #666; width: 350px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; float: left; margin-left: 15px;}
+.ymm .main .right .part .nr .list2{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.ymm .main .right .part .nr .list2 ul{ }
+.ymm .main .right .part .nr .list2 ul li{ width: 100%; height: 30px; line-height: 30px; *height: 26px;*line-height: 26px; background: url("../img/zqhd.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zqhd.jpg*/ no-repeat left center; font-size: 15px;}
+.ymm .main .right .part .nr .list2 ul li a{ display: block; color: #666; width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; float: left; margin-left: 15px;}
+.ymm .main .right .part .nr .list2 ul li span{ display: block; width: 100px; float: right; text-align: left; color: #666;}
+
+.ymm .main .right .part .nr .list1{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.ymm .main .right .part .nr .list1 ul{ }
+.ymm .main .right .part .nr .list1 ul li{ width: 100%; height: 30px; line-height: 30px;*height: 26px;*line-height: 26px; background: url("../img/zqhs.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zqhs.png*/ no-repeat left center; font-size: 15px;}
+.ymm .main .right .part .nr .list1 ul li a{ display: block; color: #666; width: 410px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; float: left; margin-left: 15px;}
+
+.ymm .main .right .part .nr .tpxw{ width: 476px; height: 268px; float: left;}
+
+/*����ͼ*/
+.ymm .main .right .part .nr .tpxw .focus{position:relative;width:100%;height:268px;float: left;}  
+.ymm .main .right .part .nr .tpxw .focus img{width:100%;height: 268px;}
+.ymm .main .right .part .nr .tpxw .focus .btn{position:absolute;bottom:34px;left:341px;overflow:hidden;zoom:1;} 
+.ymm .main .right .part .nr .tpxw .focus .btn a {position: relative;display: inline;width: 13px;height: 13px;text-decoration: none;text-align: left;outline: 0;float: left;background: #D9D9D9;}
+.ymm .main .right .part .nr .tpxw .focus .btn a:hover,.ymm .main .right .part .nr .tpxw .focus .btn a.current {cursor: pointer;background: #fc114a;}
+.ymm .main .right .part .nr .tpxw .focus .fPic {position: absolute;left: 0px;top: 0px;width: 100%;}
+.ymm .main .right .part .nr .tpxw .focus .D1fBt {overflow: hidden;zoom: 1;height: 16px;z-index: 10;}
+.ymm .main .right .part .nr .tpxw .focus .shadow {width: 100%;position: absolute;bottom: 0;left: 0px;z-index: 10;height: 40px;line-height: 40px;background: url("../img/ydyhtmbj.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/ydyhtmbj.png*/ repeat left top;filter: progid: DXImageTransform.Microsoft.gradient( GradientType=0, startColorstr='#80000000', endColorstr='#80000000')\9;display: block;text-align: left;font-size: 12px;}
+.ymm .main .right .part .nr .tpxw .focus .shadow a {text-decoration: none;color: #fff;font-size: 14px;overflow: hidden;margin-left: 10px;}
+.ymm .main .right .part .nr .tpxw .focus .fcon {position: relative;width: 100%;float: left;display: none;background: #000;}
+.ymm .main .right .part .nr .tpxw .focus .fcon img {display: block;}
+.ymm .main .right .part .nr .tpxw .focus .fbg {bottom: 15px;left: 380px;position: absolute;height: 10px;text-align: center;z-index: 10;}
+.ymm .main .right .part .nr .tpxw .focus .fbg div {margin: 0px auto;overflow: hidden;zoom: 1;height: 10px;}
+.ymm .main .right .part .nr .tpxw .focus .D1fBt a {position: relative;width: 10px;height: 10px;margin: 0 5px;color: #B0B0B0;font: 12px/15px "\5B8B\4F53";text-decoration: none;text-align: center;outline: 0;float: left;background: #ccc;border-radius: 20px;*display: inline; *behavior: url("css/PIE.htc")/*tpa=http://df.xabpo.com/resources/web/wg_dj/css/css/PIE.htc*/;}
+.ymm .main .right .part .nr .tpxw .focus .D1fBt .current,.ymm .main .right .part .nr .tpxw .focus .D1fBt a:hover {background: #ec6d57;}
+.ymm .main .right .part .nr .tpxw .focus .D1fBt img {display: none}
+.ymm .main .right .part .nr .tpxw .focus .D1fBt i {font-style: normal;font-size: 12px;color: #fff;line-height: 19px;}
+.ymm .main .right .part .nr .tpxw .focus .prev,.ymm .main .right .part .nr .tpxw .focus .next {	position: absolute;width: 40px;height: 74px;background: url("../images/focus_btn.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/images/focus_btn.png*/ no-repeat;}
+.ymm .main .right .part .nr .tpxw .focus .prev {top: 50%;margin-top: -37px;left: 0;background-position: 0 -74px;cursor: pointer;}
+.ymm .main .right .part .nr .tpxw .focus .next {top: 50%;margin-top: -37px;right: 0;background-position: -40px -74px;cursor: pointer;}
+.ymm .main .right .part .nr .tpxw .focus .prev:hover {background-position: 0 0;}
+.ymm .main .right .part .nr .tpxw .focus .next:hover {background-position: -40px 0;}  
+
+.foot{ width: 100%;  text-align: center; font-size: 14px; color: #fff; line-height: 25px; height: 25px; position: absolute; bottom: 20px; left: 0;}
+
+
+
+/*��ҳ��*/
+.zymm{ width: 943px; height: 632px;margin-bottom:14px; background: #fff; border-top: 1px solid #E1E1E1; margin-top: 10px; padding: 5px 15px 15px;}
+.zymm .title{ width: 933px; height: 43px; line-height: 43px; border-bottom: 1px dashed #ddd;  color: #dd0007;font-weight: bold; font-size: 17px; padding-left: 10px;}
+.zymm .title span{  color: #333;}
+.zymm .xxnr{ width: 933px; height:578px; overflow-y:auto;}
+.zymm .xxnr .dflist{ width: 100%; height: auto; overflow: hidden;}
+.zymm .xxnr .dflist table{ width: 100%; border-collapse: collapse;}
+.zymm .xxnr .dflist table td{ height: 42px; line-height: 42px; border-bottom: 1px dashed #dddddd; font-size: 16px; color: #666; text-align: center;}
+.zymm .xxnr .dflist table th{ background: #f7f7f7; font-size: 16px; color: #333; text-align: center; height: 42px; line-height: 42px; font-weight: bold;}
+.zymm .xxnr .dflist .but{ width: 62px; height: 24px; line-height: 24px; text-align: center; margin: 5px auto 0; background: #8cc4fb; font-size: 13px; color: #fff;}
+.zymm .xxnr .dflist .but a{ display: block; color: #fff;}
+.zymm .xxnr .dflist .zzgx{ width: 541px; text-align: left; padding: 0 10px; overflow: hidden;}
+
+.zymm .xxnr .dfbd{ width: 100%; height: auto; margin-top: 20px;}
+.zymm .xxnr .dfbd .jt{ width: 100%; overflow: hidden; font-size: 16px; color: #666; margin-bottom: 15px;}
+.zymm .xxnr .dfbd .jt .ts{ display: block; margin-right: 20px; float: left; width: 100px; line-height: 36px; font-size: 16px; color: #666; text-align: right; height: 38px;}
+.zymm .xxnr .dfbd .jt .srk{ display: block; float: left; width: 290px; height: 36px; line-height: 36px; font-size: 14px; color: #666; padding-left: 10px; border: 1px solid #dddddd;}
+.zymm .xxnr .dfbd .jt .ddk{ width: auto; float: left; height: 20px; line-height: 20px; margin-top: 5px; margin-right: 20px;}
+.zymm .xxnr .dfbd .jt .dx{ width: 12px; height: 12px; display: block; float: left;  margin-top: 5px;}
+.zymm .xxnr .dfbd .jt .but{ width: 159px; height: 41px; float: left; display: block; line-height: 41px; text-align: center; font-size: 16px; color: #fff; overflow: hidden; background: url("../img/bluebut.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bluebut.png*/ no-repeat left top; margin-top: 15px;} 
+		
+.zymm .xxnr .zzgxzy{ width: 100%; height: auto; margin-top: 20px;}
+.zymm .xxnr .zzgxzy .jt{ width: 100%; overflow: hidden; font-size: 16px; color: #666; margin-bottom: 15px;}
+.zymm .xxnr .zzgxzy .jt .ts{ display: block; margin-right: 20px; float: left; width: 100px; line-height: 36px; font-size: 16px; color: #666; text-align: right; height: 38px;}
+.zymm .xxnr .zzgxzy .jt .srk{ display: block; float: left; width: 360px; height: 36px; line-height: 36px; font-size: 14px; color: #666; padding-left: 10px; border: 1px solid #dddddd;}
+.zymm .xxnr .zzgxzy .jt .ddk{ width: auto; float: left; height: 20px; line-height: 20px; margin-top: 5px; margin-right: 20px;}
+.zymm .xxnr .zzgxzy .jt .dx{ width: 12px; height: 12px; display: block; float: left;  margin-top: 5px;}
+.zymm .xxnr .zzgxzy .jt .but{ width: 159px; height: 41px; float: left; display: block; line-height: 41px; text-align: center; font-size: 16px; color: #fff; overflow: hidden; background: url("../img/bluebut.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bluebut.png*/ no-repeat left top; margin-top: 15px;} 
+.zymm .xxnr .zzgxzy .jt select{ display: block; float: left; width: 372px; height: 36px; line-height: 36px; box-shadow: 0; font-size: 16px; color: #666; padding-left: 10px; border: 1px solid #dddddd; font-size: 14px; color: #666;}
+.zymm .xxnr .zzgxzy .jt option{ height: 36px; line-height: 36px;}
+.zymm .xxnr .zzgxzy .jt textarea{ display: block; float: left; width: 350px; height: 80px; padding: 10px; line-height: 25px; font-size: 16px; color: #666;}
+	
+
+.zymm .zybut{ width: 100px; float: right; margin-top: -40px; height: 30px; line-height: 30px; text-align: center; background: url("../img/bluebut.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/bluebut.png*/ no-repeat center center; border-radius: 3px; font-size: 16px; }
+.zymm .zybut a{ color: #fff;}
+.zymm .xxnr .zzgxzylist table{ border-collapse: collapse; width: 100%;}
+.zymm .xxnr .zzgxzylist table td{ height: 45px; line-height: 45px; font-size: 16px; color: #666; text-align: center;}
+.zymm .xxnr .zzgxzylist table td.t1{ background: #f7f7f7;}
+.zymm .xxnr .zzgxzylist table th{ background: #f7f7f7; font-size: 16px; font-weight: bold; color: #333; text-align: center; height: 42px; line-height: 42px;}
+.zymm .xxnr .zzgxzylist .but{ width: 62px; height: 24px; line-height: 24px; text-align: center; margin: 5px auto 0; background: #8cc4fb; font-size: 13px; color: #fff;}
+.zymm .xxnr .zzgxzylist .but a{ display: block; color: #fff;}
+.zymm .xxnr .zzgxzylist .zzgx{ width: 541px; text-align: left; padding: 0 10px; overflow: hidden;}
+
+.zymm .xxnr .grzx{ width: 100%; height: 560px; overflow-y: auto; margin-top: 20px;}
+.zymm .xxnr .grzx table{ width: 100%; border-collapse: collapse;}
+.zymm .xxnr .grzx table td{ height: 45px; line-height: 45px; border: 1px solid #ddd; font-size: 16px; color: #333;}
+.zymm .xxnr .grzx table td.bt{ padding-right: 5px;  text-align: right;} 
+.zymm .xxnr .grzx table td.xq{  text-align: left; padding-left: 5px;}
+.zymm .xxnr .grzx table td textarea{ width: 810px; height: 120px; margin: 5px 0;}
+
+.zymm .xxnr .newlist{ width: 100%; margin-top: 15px; height: auto; overflow: hidden;}
+.zymm .xxnr .newlist .nr{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.zymm .xxnr .newlist .nr ul{ }
+.zymm .xxnr .newlist .nr ul li{ margin-left: 10px; height: 35px; line-height: 35px; *height: 31px; *line-height: 31px; background: url("../img/zqhd.jpg")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zqhd.jpg*/ no-repeat left center; font-size: 15px;}
+.zymm .xxnr .newlist .nr ul li a{ display: block; color: #666; width: 610px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; float: left; margin-left: 15px;}
+.zymm .xxnr .newlist .nr ul li span{ display: block; width: 100px; float: right; text-align: right; color: #666;}
+
+.zymm .xxnr .newlist .nr1{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.zymm .xxnr .newlist .nr1{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.zymm .xxnr .newlist .nr1 ul{ }
+.zymm .xxnr .newlist .nr1 ul li{ width: 100%; height: 35px; line-height: 35px; *height: 31px; *line-height: 31px; background: url("../img/zqhs.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zqhs.png*/ no-repeat left center; font-size: 15px;}
+.zymm .xxnr .newlist .nr1 ul li a{ display: block; color: #666; width: 610px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; text-align: left; float: left; margin-left: 15px;}
+.zymm .xxnr .newlist .nr1 ul li span{ display: block; width: 100px; float: right; text-align: right; color: #666;}
+
+.zymm .xxnr .imglist{ width: 100%; margin-top: 15px; height: auto; overflow: hidden;}
+.zymm .xxnr .imglist .nr{ width: 100%; height: auto; overflow: hidden; margin-top: 5px;}
+.zymm .xxnr .imglist .nr ul{ }
+.zymm .xxnr .imglist .nr ul li{ width: 196px; float: left; margin: 0 18px; height: 175px; overflow: hidden;}
+.zymm .xxnr .imglist .nr ul li a{ display: block; }
+.zymm .xxnr .imglist .nr ul li a img{ width: 190px; height: 134px; padding: 2px; border: 1px solid #ddd; display: block;}
+.zymm .xxnr .imglist .nr ul li a span{ display: block; width: 100%;  text-align: center; color: #333; font-size: 16px; height: 35px; line-height: 35px;}
+
+
+
+.zymm .xxnr .local{ width: 913px; padding-left: 20px; height: 43px; line-height: 43px; color: #333; border-bottom: 1px dashed #ddd; font-size: 14px; padding-left: 20px; background: url("../img/local.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/local.png*/ no-repeat left center;}
+.zymm .xxnr .local a{ color: #333;}
+.zymm .xxnr .local span{ color: #dd0007;}
+.zymm .local{ width: 913px; padding-left: 20px; height: 43px; line-height: 43px; color: #333; border-bottom: 1px dashed #ddd; font-size: 14px; padding-left: 20px; background: url("../img/local.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/local.png*/ no-repeat left center;}
+.zymm .local a{ color: #333;}
+.zymm .local span{ color: #dd0007;}
+
+
+.zymm .xxnr .newxx{ width: 100%; margin-top: 15px; height: auto; overflow: hidden;}
+.zymm .xxnr .newxx .title1{ width: 100%; height: auto; margin: 10px auto; overflow: hidden; line-height: 30px; font-size: 18px; color: #333; text-align: center;}
+.zymm .xxnr .newxx .xgxx{ width: 100%; height: 35px; line-height: 35px; text-align: center; font-size: 14px; color: #999;}
+.zymm .xxnr .newxx .nr{ width: 100%; height: 462px; overflow-y: auto; margin-top: 10px; line-height: 35px; color: #333; font-size: 16px;}
+.zymm .xxnr .newxx .nr img{ display: block; margin: 10px auto;}
+
+
+
+
+
+
+
+/*��ҳ��ʽ*/
+.cms_page { text-align: left; height: 32px; line-height: 32px; margin-top: 3px;}
+.cms_page .pre {border-radius: 3px 0px 0px 3px;width: 30px;height: 25px;background: #fff;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-top: 4px;text-align: center;float: left;padding-bottom: 3px;cursor: pointer;}
+.cms_page .p {width: 30px;height: 25px;background: #fff;border-left: 1px solid #ddd;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-top: 4px;text-align: center;float: left;padding-bottom: 3px;cursor: pointer;}
+.cms_page .next {width: 30px;height: 25px;background: #fff;border-left: 1px solid #ddd;border-right: 1px solid #ddd;border-top: 1px solid #ddd;border-bottom: 1px solid #ddd;margin-top: 4px;text-align: center;float: left;border-radius: 0px 3px 3px 0px;padding-bottom: 3px;cursor: pointer;}
+.cms_page .next:hover,.page .p:hover,.page .pre:hover {background: #f5f5f5;}
+.cms_page .active {background: #f5f5f5;color: #737373;}
+.cms_page .disable {color: #ccc;}
+.cms_page .disable:hover {background: #fff;color: #ccc;cursor: default;}
+.cms_page input[type=text] {height: 27px;line-height: 27px;border: 1px solid #a7b5bc;padding: 3px;}
+
+/*ǩ���б�*/
+.qiandaolist{ width: 100%;font-size: 15px;}
+.qiandaolist ul li{border-bottom:1px #eee solid ;  line-height: 30px;padding-left: 10px;margin-top: 10px;padding-right: 10px;}
+.qiandaoshijian{ width:30% ; color:#3266BD ;float:left ;}
+.yiqiandao{width:20% ; color:#3266BD ; float:left ;}
+.weiqiandao{width:20% ; color:#510906; float:left ;}
+.didian{width:50% ; color:#510906; float:left ;}
+
+.beizhu{}
+.beizhu span {margin: 0px 10px;}
+.beizhu:hover .beizhuxianshi{display: block;}
+.beizhuxianshi{display:none;}
+.qiandaoshuxing{width:100%;}
+
+
+
+/*������ҳ*/
+.zymm .xxnr .grzy{ width: 100%; margin-top: 15px; height: auto; overflow: hidden;}
+.zymm .xxnr .grzy .zb{ width: 920px; padding: 0 10px; float: left; height: 560px; }
+.zymm .xxnr .grzy .zb .fbpyq{ width: 100%; margin-bottom: 5px; height: 110px;}
+.zymm .xxnr .grzy .zb .pyqlb{ width: 100%; height: 450px;overflow-y: auto;}  
+.zymm .xxnr .grzy .yb{ width: 193px; padding: 0 10px; float: right; height: 570px; }
+.zymm .xxnr .grzy .yb .zp{ width: 107px; height: 107px; border-radius: 100px; margin: 0 auto;}
+.zymm .xxnr .grzy .yb .zp img{ width: 107px; height: 107px; border-radius: 100px;}
+.zymm .xxnr .grzy .yb .xgxx{ width: 100%;  margin: 13px auto; text-align: center;}
+.zymm .xxnr .grzy .yb .xgxx .xm{ font-size: 20px; color: #333;  width: 100%; display: block;  height: 35px; line-height: 35px;}
+.zymm .xxnr .grzy .yb .xgxx .dy{ width: 100%; font-size: 15px; color: #f33636; height: 20px; margin-top: 10px; display: block; }
+.zymm .xxnr .grzy .yb .xgxx .dzb{ width: 100%; font-size: 15px; color: #666; line-height: 35px; text-align: left; display: block;}
+.zymm .xxnr .grzy .yb .xgxx .jifen{ width: 100%; height: 90px; overflow: hidden; text-align: center;}
+.zymm .xxnr .grzy .yb .xgxx .jifen .lb{ width: 100%; float: left; font-size: 14px; color: #333; line-height: 30px;}
+.zymm .xxnr .grzy .yb .xgxx .jifen .lb a{ color: #333;}
+.zymm .xxnr .grzy .yb .xgcz{ width: 190px;  margin: 0 auto; height: 60px; line-height: 30px; font-size: 15px; color: #4459c6;}
+.zymm .xxnr .grzy .yb .xgcz a{ width: 95px; float: left; text-align: center; color: #4459c6; display: block;}
+.zymm .xxnr .grzy .yb .xgcz a.cz1{ color: #f33636;}
+
+/**/
+.pyq_pep{ padding: 5px; border-bottom: 1px solid #ddd; margin-bottom: 10px;}
+
+.pyq_pep_nr{}
+.pyq_pep_nr_l{ width:100px; float: left;}
+.pyq_pep_nr_l img{ width:100px; height:100px ; overflow: hidden;}
+.pyq_pep_nr_r{width:750px;float:left; margin-left: 15px;}
+.pyq_pep_nr_r1{}
+.pyq_pep_nr_r1 h1{ font-size:14px; color: #333;}
+.pyq_pep_nr_r1 p{ font-size:14px; color: #888;}
+.pyq_pep_nr_r1 img{ margin:2px;}
+.pyq_pep_nr_r2{margin-top:10px;}
+.pyq_pep_dianzanshu{ margin-top:10px; height:24px; line-height:24px; background:url("../img/zan2.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zan2.png*/ 5px center no-repeat #fafafa; font-size:14px; padding-left:22px;padding-right: 10px;padding-top:5px; padding-bottom: 5px; color:#3266BD ;}
+.pyq_pep_dianzanshu span{font-size:14px; color:#3266BD; margin:0px 2px ;  }
+.pyq_pep_pl{ margin-top:10px; background:#fafafa; padding-left: 10px;padding-right: 10px;padding-top:5px;}
+.pyq_pep_pl ul li{margin-bottom:5px; padding-bottom: 5px; border-bottom: 1px #eee solid;}
+.pyq_pep_pl ul li span{ float: left; color:#3266BD ; font-size:14px;}
+.pyq_pep_pl ul li p{font-size:14px; color:#888888 ;}
+.pyq_pep_pl .pingl{ width: 100%; height: 40px;}
+
+
+/*����Ȧ����*/
+
+.dianzan{ width:120px; height:15px; }
+.dianzan_ber{width:13px; height:15px; float:left;}
+.dianzan:hover .dianzan_aft{ display: block;}
+.dianzan_aft{height:15px; display:none; float:left; margin-left: 15px; margin-top: 5px;}
+.dianzan_aft_l{width:33pxpx; height:15px; line-height: 15px; background:url("../img/zan.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zan.png*/ left center no-repeat; font-size:12px; float: left; }
+.dianzan_aft_l a{ color: #999; display: block; padding-left:18px; width: 100%;}
+.dianzan_aft_l:hover a{ color: #f10c0c;}
+.dianzan_aft_l:hover {background:url("../img/zan2.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zan2.png*/ left center no-repeat;}
+.dianzan_aft_l:visited {background:url("../img/zan2.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zan2.png*/ left center no-repeat;}
+.dianzan_aft_l:active {background:url("../img/zan2.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/zan2.png*/ left center no-repeat;}
+.dianzan_aft_r{width:33px; height:15px; line-height: 15px; background:url("../img/pp.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/pp.png*/ left center no-repeat; font-size:12px; float: left; margin-left: 10px;}
+.dianzan_aft_r a{ color: #999; display: block; padding-left:18px; width: 100%;}
+/*������ҳ*/
+.pyq_grzy{}
+.pyq_grzy1{margin-bottom:5px; padding-bottom: 5px; border-bottom: 1px #eee solid;}
+.pyq_grzy1_l{ width:20%; float:left;}
+.pyq_grzy1_l h1{font-size:24px; line-height:20px; font-weight: bold; float:left; padding-left: 10px;}
+.pyq_grzy1_l h2{font-size:14px; line-height:20px; float:left; margin-left:2px ; padding-top:3px;}
+.pyq_grzy1_r{width:80%; float:left; font-size:14px;color:#585858;}
+.pyq_grzy1_r a{ line-height:22px;}
+.pyq_grzy1_r img{ width:30%; height:100px; margin:2px; float: left;}
+
+/*������ҳ1*/
+.dianzanfbjl{ font-size: 14px; color:#888888; line-height: 24px;}
+.dianzanfbjl a{ font-size: 14px; color:#3266bd; line-height:24px; display: inline; float: right;}
+
+/*��Ա��½*/
+.dlk1{ width: 438px; height: 339px; margin: 120px auto; overflow: hidden;  background: #fff;}
+.dlk1 .dltitle{ width: 125px; height: 30px; margin: 25px auto 30px; text-align: center; font-size: 22px; color: #111; font-weight: bold;}
+.dlk1 .dltitle img{ width: 125px; height: 30px;}
+.dlk1 .jt{ width: 313px; margin: 0 auto; overflow: hidden;}
+.dlk1 .jt input{ display: block; width: 256px; border: 1px solid #ddd; margin-bottom: 24px; background: #fff; height: 43px; line-height: 43px; font-size: 14px; color: #666; padding-left: 55px;}
+.dlk1 .jt input.l1{ background: url("../img/login.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/login.png*/ no-repeat 15px center;}
+.dlk1 .jt input.l2{ background: url("../img/key.png")/*tpa=http://df.xabpo.com/resources/web/wg_dj/img/key.png*/ no-repeat 15px center;}
+.dlk1 .jt .but{ width: 313px; height: 45px; line-height: 45px; background: #c12e27; text-align: center; font-size: 20px; color: #fff; margin-top: 40px;}
+.dlk1 .jt .but a{ color: #fff;}
+
+
+
+
+
